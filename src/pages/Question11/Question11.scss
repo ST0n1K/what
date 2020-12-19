@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.questionLast {
+	// height: 900px;
+	// background-image: url('../../assets/bg22.jpg');
+	// background-position: center;
+	// font-family: 'Nerko One', cursive;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	width: 100vw;
+	background-image: url('../../assets/bg22.jpg');
+	background-size: 140%;
+	background-position: center;
+	position: relative;
+
+	.card-background {
+		background-color: #4158d0;
+		background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 20%, #ffcc70 100%);
+	}
+
+	p {
+		font-size: 20px;
+	}
+
+	.block {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}

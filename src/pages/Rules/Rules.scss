@@ -1,0 +1,13 @@
+.rules {
+	width: 100vw;
+	height: 100vh;
+	max-height: 100vh;
+	background-image: url('../../assets/bgRule.jpg');
+	background-size: 100%;
+	background-position: center;
+	font-family: 'Nerko One', cursive;
+
+	.card-background {
+		background-image: linear-gradient(110.1deg, rgba(34, 126, 34, 1) 2.9%, rgba(168, 251, 60, 1) 90.3%);
+	}
+}
